@@ -1,0 +1,36 @@
+:root {
+  /* colors */
+  --black: #000000;
+  --blue: #454659;
+  --grey: #b0b0b0;
+  --red: #d50000;
+  /* fonts */
+  --header-font-family: "Barlow Semi Condensed BOLD";
+  --paragraph-font-family: "Roboto Regular";
+}
+
+html, body {
+  color: --black;
+  font-family: --paragraph-font-family;
+  font-size: 14px;
+  letter-spacing: 0.2;
+}
+
+h1, h2, h3, h4 {
+  font-family: --header-font-family;
+}
+
+h1 {
+  color: --red;
+  font-size: 22px;
+}
+
+h2 {
+  color: --blue;
+  font-size: 20px;
+}
+
+h3 {
+  color: --grey;
+  font-size: 16px;
+}
